@@ -1,0 +1,11 @@
+{
+    "frameworks": {
+        "net46": {
+            "dependencies": {
+                "Microsoft.Azure.KeyVault": "2.4.0-preview",
+                "Microsoft.Azure.Services.AppAuthentication": "1.1.0-preview",
+                "SSH.NET": "2016.1.0"
+            }
+        }
+    }
+}

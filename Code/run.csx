@@ -28,9 +28,9 @@ public static async Task Run(TimerInfo myTimer, TraceWriter log)
     
     log.Info($"Secret Read successfully. Now connecting to SFTP Server");
 
-    string host = @"azfdemoftp.eastus2.cloudapp.azure.com";
+    string host = @"{SFTP Server IP address or FQDN}";
 
-    string username = "{SFTP Ussr Name}";
+    string username = "{SFTP User Name}";
 
     var sftp = new SftpClient(host, username, sftpPasswordString);
 

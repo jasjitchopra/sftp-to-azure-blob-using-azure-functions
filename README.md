@@ -1,5 +1,6 @@
 # Sftp to azure blob using azure functions
 Copy files from SFTP server to Azure Blob Storage using Azure Functions and Azure Key Vault
+Using Azure Functions v1.x
 
 ## Pre-requisites
 - Azure key valut and SFTP password stored in Secret [Reference Article here](https://blogs.msdn.microsoft.com/benjaminperkins/2018/06/13/create-an-azure-key-vault-and-secret/).

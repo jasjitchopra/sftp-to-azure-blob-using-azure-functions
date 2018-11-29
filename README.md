@@ -9,7 +9,7 @@ Using Azure Functions v1.x
   - This will be used to connect to the Azure Blob Storage
 - For a complete end to end live demo refer to my blog with video [here](https://www.jasjitchopra.com/url).
 ## Guided Steps
-1. Create the Azure function and pick a trigger of your choice with c# as the language
+1. Create the Azure function and pick a trigger of your choice with c# as the language (for my demo I picked a manual trigger)
 2. In the files section create a new file called project.json
 3. Copy the code present in the project.json from this github repo in that file
 4. Open the run.csx file and completely replace the code from run.csx file from this github repo
